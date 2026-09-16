@@ -95,6 +95,32 @@
       border: 1px solid #cfe4d7;
       color: var(--ok);
     }
+    .cert {
+      background: #f8f6ff;
+      border: 1px solid #d8d0f0;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 18px 0;
+    }
+    .cert h3 {
+      font-size: 18px;
+      color: var(--navy);
+      margin: 0 0 4px;
+    }
+    .cert-jp {
+      font-size: 20px;
+      font-weight: 700;
+      color: #4a3080;
+      margin: 2px 0;
+    }
+    .cert-romaji {
+      font-size: 13px;
+      color: #888;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+    .cert p { margin: 6px 0; }
+    .cert ul { margin: 4px 0 10px; }
     .shot {
       margin: 18px 0 8px;
       background: var(--card);
@@ -175,11 +201,64 @@
       <li>Các địa điểm học và thi tại Tokyo: <a href="https://www.mitsubishielectric.co.jp/fa/learn/semi/school/place/tokyo_fa.html">Tokyo FA</a></li>
     </ul>
 
-    <h2><span class="num">6</span>Điều kiện bắt buộc trước khi đi làm</h2>
-    <div class="warn">
-      <p><strong>Em lưu ý:</strong> muốn thi công và xử lý hệ thống điện dưới 600V tại Nhật thì bắt buộc phải có chứng chỉ <strong>Điện công hạng 2</strong>.</p>
-      <p>Tiếng Nhật: <strong>第二種電気工事士</strong> (Dai-ni-shu Denki Koji-shi).</p>
-      <p>Đây là điều kiện để bắt đầu với hệ thống điện tại Nhật và đi làm ở cấp căn bản.</p>
+    <h2><span class="num">6</span>Chứng chỉ bắt buộc trước khi đi làm</h2>
+    <p>Để đi làm chính thức tại Nhật trong ngành tự động hóa (FA) và công trường, em cần 3 chứng chỉ dưới đây. Thiếu bất kỳ cái nào cũng không được phép thi công hoặc vận hành hệ thống điện.</p>
+
+    <div class="cert">
+      <h3>6a. Điện công hạng 2</h3>
+      <div class="cert-jp">第二種電気工事士</div>
+      <div class="cert-romaji">Dai-ni-shu Denki Kōji-shi</div>
+      <p><strong>Là gì:</strong> Chứng chỉ hành nghề điện do Bộ Kinh tế Nhật cấp. Đây là chứng chỉ phổ biến nhất và bắt buộc nhất cho người muốn lắp đặt, sửa chữa hệ thống điện.</p>
+      <p><strong>Em được phép làm gì:</strong></p>
+      <ul>
+        <li>Thi công, lắp đặt đường dây điện trong nhà và tòa nhà (dưới 600V)</li>
+        <li>Đấu nối tủ điện, bảng điện, ổ cắm, đèn chiếu sáng</li>
+        <li>Sửa chữa, bảo trì hệ thống điện dân dụng và công nghiệp nhẹ</li>
+      </ul>
+      <p><strong>Ai cần:</strong> Bắt buộc cho tất cả người trực tiếp thi công hệ thống điện tại Nhật. Không có chứng chỉ này thì không được phép chạm vào dây điện trên công trường.</p>
+      <p><strong>Kỳ thi:</strong> Thi lý thuyết (筆記試験) + thi thực hành (技能試験). Thi 2 lần/năm (tháng 6 và 10). Đăng ký tại Hiệp hội kiểm tra kỹ năng điện Nhật Bản.</p>
+    </div>
+
+    <div class="cert">
+      <h3>6b. Giáo dục đặc biệt về xử lý điện hạ thế</h3>
+      <div class="cert-jp">低圧電気取扱業務特別教育</div>
+      <div class="cert-romaji">Tei-atsu Denki Toriatsugai Gyōmu Tokubetsu Kyōiku</div>
+      <p><strong>Là gì:</strong> Khóa giáo dục an toàn bắt buộc theo Luật An toàn vệ sinh lao động (労働安全衛生法). Đây không phải kỳ thi mà là khóa học bắt buộc — học xong là được cấp chứng nhận.</p>
+      <p><strong>Em được phép làm gì:</strong></p>
+      <ul>
+        <li>Vận hành, kiểm tra, bảo dưỡng thiết bị điện hạ thế (dưới 600V) trong nhà máy và công trường</li>
+        <li>Xử lý sự cố điện, ngắt/mở cầu dao, đo đạc điện áp, dòng điện</li>
+        <li>Làm việc với tủ điều khiển, PLC, biến tần, motor trong hệ thống tự động hóa</li>
+      </ul>
+      <p><strong>Tại sao cần thêm cái này:</strong> Chứng chỉ Điện công hạng 2 cho phép em <em>thi công lắp đặt</em>. Còn chứng chỉ này cho phép em <em>vận hành, sửa chữa, bảo dưỡng</em> thiết bị điện hàng ngày trong nhà máy. Hai chứng chỉ bổ sung cho nhau.</p>
+      <p><strong>Hình thức:</strong> Học khoảng 6–12 giờ tại cơ sở đào tạo được Bộ Lao động công nhận. Học xong thi trắc nghiệm đơn giản. Không khó như Điện công hạng 2.</p>
+      <p><strong>Ai cần:</strong> Bắt buộc cho công nhân trực tiếp xử lý thiết bị điện hạ thế tại nhà máy. Nhân viên kỹ thuật FA, thợ bảo trì, người lắp đặt tủ điều khiển đều cần.</p>
+    </div>
+
+    <div class="cert">
+      <h3>6c. Kỹ năng lắp ráp thiết bị điện</h3>
+      <div class="cert-jp">電気機器組立て技能士</div>
+      <div class="cert-romaji">Denki Kiki Kumitate Ginōshi</div>
+      <p><strong>Là gì:</strong> Chứng chỉ kỹ năng quốc gia (国家資格) về lắp ráp thiết bị điện. Do Bộ Lao động Nhật cấp theo hệ thống kỳ thi kỹ năng nghề (技能検定). Có 3 cấp: cấp 3 (dễ nhất) → cấp 2 → cấp 1 (khó nhất).</p>
+      <p><strong>Em được phép làm gì:</strong></p>
+      <ul>
+        <li>Lắp ráp tủ điều khiển, tủ phân phối điện, bảng mạch điều khiển</li>
+        <li>Lắp đặt PLC, biến tần, relay, aptomat vào tủ điện theo sơ đồ</li>
+        <li>Đấu nối dây bên trong tủ điều khiển hệ thống tự động hóa</li>
+        <li>Làm việc tại nhà máy sản xuất thiết bị điện, xưởng lắp ráp tủ điều khiển</li>
+      </ul>
+      <p><strong>Tại sao cần:</strong> Trên công trường và nhà máy Nhật, người ta không để một người chưa có chứng chỉ tự lắp ráp tủ điện hay tủ điều khiển. Đây là cách chứng minh em có tay nghề. Nhiều đơn hàng FA yêu cầu nhân công phải có ít nhất cấp 3 hoặc cấp 2.</p>
+      <p><strong>Kỳ thi:</strong> Thi lý thuyết + thi thực hành. Thi qua Hiệp hội phát triển nhân lực Nhật Bản (中央職業能力開発協会). Thi nhiều đợt trong năm tại các trường kỹ thuật trên toàn quốc.</p>
+      <p><strong>Gợi ý:</strong> Em nên bắt đầu từ <strong>cấp 3</strong> (không yêu cầu kinh nghiệm), sau đó lên cấp 2 khi có kinh nghiệm thực tế 2–3 năm.</p>
+    </div>
+
+    <div class="note">
+      <strong>Tóm tắt lộ trình chứng chỉ:</strong><br/>
+      ① Học Mitsubishi e-learning để nắm kiến thức căn bản về FA →
+      ② Thi 第二種電気工事士 (điện công hạng 2) →
+      ③ Học 低圧電気取扱業務特別教育 (xử lý điện hạ thế) →
+      ④ Thi 電気機器組立て技能士 cấp 3 (lắp ráp thiết bị điện)<br/><br/>
+      Sau khi có đủ 3 chứng chỉ này, em đủ điều kiện làm kỹ thuật viên tự động hóa, lắp đặt và bảo trì thiết bị điện tại nhà máy và công trường ở Nhật.
     </div>
 
     <footer>
