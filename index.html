@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lộ trình học Mitsubishi FA</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #5c5c5c;
+      --line: #e6e1d8;
+      --paper: #f7f3ea;
+      --card: #fffdf8;
+      --red: #c8102e;
+      --navy: #1b2a4a;
+      --ok: #1f6b4a;
+      --warn-bg: #fff4e5;
+      --warn-ink: #7a4b00;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 400px at 10% -10%, #fff 0%, var(--paper) 55%);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    header {
+      border-bottom: 3px solid var(--red);
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+    }
+    .kicker {
+      color: var(--red);
+      font-weight: 700;
+      letter-spacing: .08em;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(28px, 5vw, 40px);
+      line-height: 1.2;
+      margin: 8px 0 10px;
+      color: var(--navy);
+    }
+    .lead { color: var(--muted); font-size: 18px; margin: 0; }
+    h2 {
+      font-size: 22px;
+      color: var(--navy);
+      margin: 36px 0 12px;
+      padding-top: 8px;
+    }
+    h2 .num {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      line-height: 28px;
+      margin-right: 8px;
+      font-family: "Segoe UI", sans-serif;
+    }
+    p { margin: 0 0 12px; }
+    a { color: #0b57d0; }
+    .box, .cred, .warn, .note {
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 16px 0;
+    }
+    .cred {
+      background: #111827;
+      color: #f5f5f5;
+      font-family: ui-monospace, Consolas, monospace;
+    }
+    .cred .label { color: #9ca3af; font-size: 12px; }
+    .cred .row { margin: 8px 0; word-break: break-all; }
+    .cred a { color: #93c5fd; }
+    .warn {
+      background: var(--warn-bg);
+      color: var(--warn-ink);
+      border: 1px solid #f0d2a0;
+    }
+    .note {
+      background: #eef6f1;
+      border: 1px solid #cfe4d7;
+      color: var(--ok);
+    }
+    .shot {
+      margin: 18px 0 8px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .shot img { width: 100%; display: block; }
+    figcaption {
+      font-size: 14px;
+      color: var(--muted);
+      padding: 10px 12px 12px;
+    }
+    ul { padding-left: 20px; }
+    li { margin: 6px 0; }
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <article class="wrap">
+    <header>
+      <div class="kicker">Hướng dẫn nội bộ · Mitsubishi FA</div>
+      <h1>Lộ trình học Mitsubishi FA</h1>
+      <p class="lead">Anh gửi em trình tự học theo hệ thống đào tạo mở của hãng. Hiện Mitsubishi là bộ e-learning open đầy đủ và dễ theo nhất.</p>
+    </header>
+
+    <h2><span class="num">1</span>Đăng nhập tài khoản</h2>
+    <p>Em vào link dưới đây, đăng nhập bằng tài khoản anh gửi. Tài khoản này chỉ dùng cho cá nhân em, không chia sẻ tiếp.</p>
+    <div class="cred">
+      <div class="label">Link đăng nhập</div>
+      <div class="row"><a href="https://www.mitsubishielectric.co.jp/fa/ssl/php/members/b_login.php?moto=/fa/index.html&amp;err=/fa/index.html&amp;back=https://www.mitsubishielectric.co.jp/fa/ssl/php/members/logout/logout.php">Mitsubishi FA member login</a></div>
+      <div class="label">Mã thành viên</div>
+      <div class="row">rfq@mrodex.com</div>
+      <div class="label">Mật khẩu</div>
+      <div class="row">Hokaido123!</div>
+    </div>
+
+    <h2><span class="num">2</span>Học e-learning tiếng Việt</h2>
+    <p>Sau khi đăng nhập, em học từ căn bản đến nâng cao tại trang tiếng Việt:</p>
+    <p><a href="https://www.mitsubishielectric.co.jp/fa/service-support/global/e-learning/vie.html">https://www.mitsubishielectric.co.jp/fa/service-support/global/e-learning/vie.html</a></p>
+    <p>Hai nhóm em cần đi hết:</p>
+    <ul>
+      <li><strong>はじめてシリーズ</strong> — series nhập môn</li>
+      <li><strong>基礎・応用編</strong> — căn bản và ứng dụng</li>
+    </ul>
+
+    <h2><span class="num">3</span>Cách mở giáo án</h2>
+    <p>Em có hai cách học. Cách nào cũng được, miễn đi hết series.</p>
+
+    <figure class="shot">
+      <img src="images/screenshot-01.png" alt="Cột PDF bản tiếng Việt trong e-learning Mitsubishi" />
+      <figcaption>Cách 1: Trong mục tiếng Việt, bấm biểu tượng PDF ở cột オフライン版 → PDF版 để xem giáo án.</figcaption>
+    </figure>
+
+    <figure class="shot">
+      <img src="images/screenshot-02.png" alt="Học trực tiếp bản online trên trình duyệt" />
+      <figcaption>Cách 2: Bấm biểu tượng ở cột オンライン版 (タブレット対応) để học trực tiếp trên máy tính. Sau khi bấm, khóa học sẽ khởi tạo ngay trên trình duyệt.</figcaption>
+    </figure>
+
+    <h2><span class="num">4</span>Giáo án tiếng Nhật</h2>
+    <p>Bộ tiếng Việt đủ để nắm căn bản. Khi muốn đọc bản gốc, em chuyển sang mục <strong>日本語</strong> phía trên trang.</p>
+    <figure class="shot">
+      <img src="images/screenshot-03.png" alt="Chọn ngôn ngữ tiếng Nhật trên trang e-learning" />
+      <figcaption>Bấm 日本語 trên thanh ngôn ngữ để vào giáo án tiếng Nhật.</figcaption>
+    </figure>
+    <div class="note">Bộ phía trên tương đối đầy đủ cho giai đoạn căn bản. Em học xong series này rồi hãy đăng ký thi.</div>
+
+    <h2><span class="num">5</span>Đăng ký khóa thi và địa điểm học</h2>
+    <p>Khi đã ổn kiến thức, em đăng ký các khóa thi online và chọn địa điểm học:</p>
+    <ul>
+      <li>Đăng ký khóa / chọn địa điểm: <a href="https://www.mitsubishielectric.co.jp/fa/learn/semi/school/index.html?ref=mail20260916">Mitsubishi FA School</a></li>
+      <li>Các địa điểm học và thi tại Tokyo: <a href="https://www.mitsubishielectric.co.jp/fa/learn/semi/school/place/tokyo_fa.html">Tokyo FA</a></li>
+    </ul>
+
+    <h2><span class="num">6</span>Điều kiện bắt buộc trước khi đi làm</h2>
+    <div class="warn">
+      <p><strong>Em lưu ý:</strong> muốn thi công và xử lý hệ thống điện dưới 600V tại Nhật thì bắt buộc phải có chứng chỉ <strong>Điện công hạng 2</strong>.</p>
+      <p>Tiếng Nhật: <strong>第二種電気工事士</strong> (Dai-ni-shu Denki Koji-shi).</p>
+      <p>Đây là điều kiện để bắt đầu với hệ thống điện tại Nhật và đi làm ở cấp căn bản.</p>
+    </div>
+
+    <footer>
+      Tài liệu gửi em Tuấn · dùng nội bộ · không chia sẻ tài khoản ra ngoài.
+    </footer>
+  </article>
+</body>
+</html>
